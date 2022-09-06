@@ -31,5 +31,5 @@ jobs:
         run: |
           git checkout main
           git pull
-          git checkout stage
+          git checkout -b stage
           git merge main
